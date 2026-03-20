@@ -21,14 +21,25 @@
     <div class="row g-4">
 
         <!-- VIDEO CARD -->
-        <div class="col-12">
-            <div class="video-card">
-                <h5>Primeras pruebas 1</h5>
-                <div class="video-container">
-                    <iframe src="https://drive.google.com/file/d/1Td_5px8nIN01kXtsg6nCTK_ZlLQtBXmJ/preview" allow="autoplay"></iframe>
+            <div class="modal fade" id="videoModal" tabindex="-1">
+            <div class="modal-dialog modal-xl modal-dialog-centered">
+                <div class="modal-content bg-dark">
+
+                <div class="modal-body p-0">
+                    <div class="video-container">
+                    <iframe 
+                        src="https://drive.google.com/file/d/1Td_5px8nIN01kXtsg6nCTK_ZlLQtBXmJ/preview"
+                        allow="autoplay; fullscreen"
+                        allowfullscreen>
+                    </iframe>
+                    </div>
+                </div>
+                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#videoModal">
+                        Ver video
+                    </button>
                 </div>
             </div>
-        </div>
+            </div>
 
         <div class="col-12">
             <div class="video-card">
