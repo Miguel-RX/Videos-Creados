@@ -51,11 +51,3 @@ h1 {
     margin-bottom: 10px;
     font-weight: 600;
 }
-
-.modal-dialog {
-    max-width: 90%;
-}
-
-.modal-body {
-    height: 80vh;
-}
