@@ -3,7 +3,81 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h1 {
+#container {
+    width: 70%;
+    margin: 0px auto;
+    border: 1px solid skyblue;
+}
+
+header {
+    background: red;
+    height: 100px;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+    border-bottom: 3px solid black;
+}
+
+nav{
+    background: black;
+    height: 50px;
+    border-bottom: 1px solid black;
+}
+
+nav ul li{
+    float: left;
+    list-style: none;
+    margin: 10px;
+    line-height: 30px;
+
+}
+
+.clearfix{
+    clear: both;
+}
+
+
+#content{
+    float: left;
+    width: calc(80% - 80px);
+    min-height: 500px;
+    background: yellowgreen;
+}
+
+aside{
+    float: left;
+    width: calc(20% - 20px);
+    background: lightgray;
+    min-height: 500px;
+    padding: 10px;
+}
+
+footer{
+    background: black;
+    height: 50px;
+    width: 100%;
     color: white;
     text-align: center;
+    line-height: 50px;
+    margin-top: 10px;
+}
+
+.article{
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.article:first-child{
+    padding-top: 10px;
+    border-top: 1px solid #eee;
+}
+
+.article h2{
+    font-size: 25px;
+    
 }
